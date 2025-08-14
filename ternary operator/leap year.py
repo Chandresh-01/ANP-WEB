@@ -1,3 +1,3 @@
 year = int(input("Enter a year: "))
-print("Leap Year" if (year % 400 == 0 or (year % 4 == 0 and year % 100 != 0)) else "Not a Leap Year")
+print("It's is a Leap Year" if (year % 400 == 0 or (year % 4 == 0 and year % 100 != 0)) else "It's not a Leap Year")
 
